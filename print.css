@@ -1,0 +1,130 @@
+/* Hope's CSS file */
+
+/*Copyright (c) 2011, Andrew Paglinawan (www.andrewpaglinawan.com Andrew.paglinawam@gmail.com), with
+Reserved Font Name "Quicksand"
+*/
+
+@font-face {font-family: 'Courier New';
+              src: url(Courier New.otf);
+              font-weight: normal;
+              Font-style: normal;}
+
+/*testing out body image, hidding body color
+body {font-family: Courier New;
+      font-size: 12px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+      background: #f5e2f5; }    end of my comment*/
+
+body {font-family: Courier New;
+      font-size: 12px;
+      line-height: 1.5;
+      margin: 0;
+      padding: 0;
+       }
+
+h1, h2, h3 {font-family: Courier New;
+             font-weight: normal; }
+
+h1 {font-size: 160%; }
+
+h2 {font-size: 130%; }
+
+h3 {font-size: 120%;}
+
+p, h1, h2, h3, ol, ul {margin-top: 0;
+                         margin-bottom: 1px; }
+
+ol { padding-left: 0;
+     margin-left: 30px; }
+
+img { padding: 4px;
+      border: 1px solid black;
+      background-color: white; }
+
+a {color: #8c5900;
+   font-weight: bold;
+   text-decoration: none;
+   border-bottom: 1px solid #898989;
+   padding-bottom: 1px; }
+
+a:visited { color: #4a2885; }
+
+a:hover, a:focus, a:active {background-color: #fff5e8;
+                            color: #800080;
+                            border-bottom-color: #fdebcf; }
+
+div#wrapper { width: 728px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 90px;
+              margin-bottom: 90px;
+              background-color: #ebf5fc;
+              
+              background-repeat: repeat-y;
+              background-position: left top;
+              background-attachment: scroll;
+              border: 2px dotted black; }
+
+header {height: 150px;
+        margin-bottom: 90px; }
+
+header h1, header p {text-indent: -9999999px; }
+
+body.home header { background: white url(images/websitebanner.png) no-repeat; }
+
+
+article {
+          width: 500px;
+         padding-left: 10px; }
+
+nav { display:none; 
+      width: 200px;
+      padding-right: 5px; }
+
+footer {
+        padding: 10px;
+        font-size: 75%;
+        height: 1%;
+        background-color: #0000ff;
+        color: #ffffff;
+        border-top: 2px dotted #464646; }
+
+footer p {margin-bottom: 0;}
+
+footer a:link {color: yellow; }
+
+footer a:hover, footer a:focus, footer a:active {background-color: transparent;
+                                                  border: none; }
+
+nav ul {list-style-type: none; 
+        border: 1px solid #aabadd;
+        margin-left: 0;
+        padding-left: 5px;
+        border-bottom: none;
+        display: block;
+        line-height: 2;
+        height: 1%; }
+
+nav a {display: block;
+       background: #eb3cf6;
+       padding-left: 1px;
+       line-height: 2;
+       border-bottom-color: #aabadd;
+       height: 1%; }
+
+nav a:hover {background-color: white; }
+
+nav li {display: inline; }
+
+table {border: 1px solid black; }
+
+caption { display: none; }
+
+thead {color: white;
+       background-color: #cccccc;
+       text-align: left; }
+
+tbody { font-family: Courier New;
+       font-size: 90%; }
